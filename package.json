@@ -1,18 +1,18 @@
 {
-  "name": "didi-command-release",
-  "description": "fis release command.",
-  "version": "0.0.11",
+  "name": "rong-command-release",
+  "description": "rong release command.",
+  "version": "0.0.5",
   "author": {
-    "name": "webzhangnan",
-    "email": "webzhangnan@gmail.com"
+    "name": "mrbackkom",
+    "email": "mrbackkom@outlook.com"
   },
-  "homepage": "https://github.com/webzhangnan/didi-command-release.git",
+  "homepage": "https://github.com/mrbackkom/rong-command-release.git",
   "keywords": [
     "fis"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/webzhangnan/didi-command-release.git"
+    "url": "https://github.com/mrbackkom/rong-command-release.git"
   },
   "engines": {
     "node": ">= 0.8.0"
@@ -25,16 +25,17 @@
     "async": "0.9.0",
     "chokidar": "1.0.3",
     "livereload-server-spec": "0.2.3",
-    "phone_log": ">0.0.1",
+    "phone_log": "0.0.0",
     "weinre": "^2.0.0-pre-I0Z7U9OV"
   },
   "devDependencies": {},
-  "readme": "# fis-command-release\n\n## Usage\n\n    Usage: release [options]\n    \n    Options:\n    \n        -h, --help          output usage information\n        -d, --dest <names>  release output destination\n        -r, --root <path>   set project root\n        -w, --watch         monitor the changes of project\n        -L, --live          automatically reload your browser\n        -c, --clean         clean compile cache\n        -m, --md5 [level]   md5 release option\n        -D, --domains       add domain name\n        -l, --lint          with lint\n        -t, --test          with unit testing\n        -o, --optimize      with optimizing\n        -p, --pack          with package\n        -u, --unique        use unique compile caching\n        --verbose           enable verbose output",
-  "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/webzhangnan/didi-command-release/issues"
-  },
-  "_id": "didi-command-release@0.12.2",
-  "_shasum": "280a81ab30c9bb588a053f72036e135c33069eaa",
-  "_from": "../../../didi-command-release"
+    "url": "https://github.com/mrbackkom/rong-command-release/issues"
+  },  
+  "maintainers": [
+    {
+      "name": "mrbackkom",
+      "email": "mrbackkom@outlook.com"
+    }
+  ]
 }

@@ -127,13 +127,13 @@ exports.register = function(commander){
     var collection = {};
     var total = {};
     var deploy = require('./lib/deploy.js');
-    var didi = require('./lib/didi.js'); 
+    var rong = require('./lib/rong.js'); 
     var component_config = require('./lib/component.js');
     deploy.done = function(){
         clearTimeout(LRTimer);
         LRTimer = setTimeout(reload, fis.config.get('livereload.delay', 200));
         //add webzhangnan
-        didi.openClientWindow();
+        rong.openClientWindow();
     };
 
     function release(opt){
@@ -339,7 +339,7 @@ exports.register = function(commander){
             //make component interface is name filed;
             component_config();
             if('weinre' in options){
-                didi.startWeinre(options.weinre);    
+                rong.startWeinre(options.weinre);    
             }
             switch (typeof options.md5){
                 case 'undefined':
